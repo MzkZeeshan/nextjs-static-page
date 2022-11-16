@@ -1,0 +1,15 @@
+.sidebarContainer{
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.title{
+    font-size: 13px;
+    width: 65%;
+    font-weight: 500;
+    color: #323232;
+}
+.content{
+    font-size: 11px;
+    width: 75%;
+    color: #595959;
+}

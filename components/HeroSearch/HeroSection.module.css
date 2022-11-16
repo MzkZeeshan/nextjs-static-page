@@ -1,0 +1,54 @@
+.HeroSearch {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://source.unsplash.com/700x700/?property");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 25vh;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.HeroSearch h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.searchInputContainer {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  padding: 5px;
+}
+.searchInputContainer input {
+  padding: 10px 0;
+  padding-left: 35px;
+  width: 40vw;
+  border-radius: 7px 0 0 7px;
+  outline: none;
+  border: none;
+}
+.searchBtnContainer {
+  position: relative;
+}
+.searchBtnContainer .arrowIcon {
+  position: absolute;
+  padding: 5px;
+  right: 0;
+  color: #fff;
+}
+.searchBtnContainer button {
+  border-radius: 0px 7px 7px 0px;
+  padding: 10px 0;
+  padding-right: 20px;
+  width: 130px;
+  color: #fff;
+  background-color: #aa4743;
+  outline: none;
+  border: none;
+}

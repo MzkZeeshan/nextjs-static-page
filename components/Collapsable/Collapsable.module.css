@@ -1,0 +1,24 @@
+.details{
+    margin: 10px 0;
+}
+.summary {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+}
+.summary::-webkit-details-marker {
+  display: none;
+}
+.summary::after {
+  font-family: "Material Symbols Outlined";
+  content: "chevron_left";
+    position: absolute;
+    right: 0;
+    top:0;
+    color: #595959;
+}
+.details[open] .summary:after {
+  font-family: "Material Symbols Outlined";
+  content: "expand_more";
+  color: #595959;
+}

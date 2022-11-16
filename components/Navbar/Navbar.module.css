@@ -1,0 +1,58 @@
+.navbar{
+    background-color: #193AA3;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 26px;
+    width: 100%;
+}
+.navbar h2{
+    font-weight: 400;
+    font-size: 28px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+.profileBtn{
+    display: inline-flex;
+    align-items: center;
+}
+.profileBtn h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.profileBtn img{
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .links{
+        flex-direction: column;
+        text-align: center;
+    }
+    .links a{
+        min-width: 100%;
+        padding: 15px 0;
+    }
+    .profileBtn{
+        padding-top: 20px;
+        border-top: 1px solid #d3d3d3;
+        width: 100vw;
+        text-align: center;
+        justify-content: center;
+    }
+  }
